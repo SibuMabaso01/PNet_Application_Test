@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="question.pkg3.Question3FXMLController">
+   <children>
+      <ImageView fx:id="image" fitHeight="144.0" fitWidth="200.0" layoutX="117.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+             <Image url="@PNet%20Pic.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="21.0" layoutY="166.0" text="Enter your Name:" />
+      <Label layoutX="19.0" layoutY="204.0" text="Enter the Position:" />
+      <TextField fx:id="edtName" layoutX="166.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="185.0" />
+      <TextField fx:id="edtPosition" layoutX="166.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="185.0" />
+      <Label layoutX="19.0" layoutY="242.0" text="Enter your Experience:" />
+      <Button fx:id="btnApply" alignment="CENTER" layoutX="140.0" layoutY="296.0" mnemonicParsing="false" onAction="#btnApplyPressed" prefHeight="36.0" prefWidth="64.0" style="-fx-background-color: red;" text="Apply" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Button>
+      <ComboBox fx:id="cbxYears" layoutX="166.0" layoutY="238.0" prefHeight="25.0" prefWidth="126.0" />
+   </children>
+</Pane>
